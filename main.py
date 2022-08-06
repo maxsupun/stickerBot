@@ -7,7 +7,7 @@ import configparser
 from textwrap import TextWrapper
 from pyrogram import Client, idle, filters
 from pyrogram.types import Message
-from pillow import Image, ImageDraw, ImageFont, ImageChops
+from Pillow import Image, ImageDraw, ImageFont, ImageChops
 
 logging.basicConfig(
     level=logging.INFO,
